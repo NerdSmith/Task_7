@@ -20,6 +20,8 @@ public class FrameMain extends JFrame{
 
     public FrameMain () {
         this.setTitle("Application");
+        ImageIcon ico = new ImageIcon("src/ru/vsu/cs/resources/kappa.ico");
+        this.setIconImage(ico.getImage());
         this.setContentPane(panelMain);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.pack();
@@ -36,7 +38,7 @@ public class FrameMain extends JFrame{
             public void actionPerformed(ActionEvent actionEvent) {
                 try {
                     int[][] matrix = ArrayUtils.createRandomIntMatrix(
-                            tableInput.getRowCount(), tableInput.getColumnCount(), 100);
+                            tableInput.getRowCount(), tableInput.getColumnCount(), 10);
                     JTableUtils.writeArrayToJTable(tableInput, matrix);
                 } catch (Exception e) {
                     SwingUtils.showErrorMessageBox(e);
