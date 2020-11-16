@@ -13,13 +13,13 @@ public class Main {
         System.out.printf("Index of the first element is: %d", firstIndexOfRepeatingSequence);
     }
 
-    public static int readVar(String phrase) {
+    private static int readVar(String phrase) {
         Scanner scanner = new Scanner(System.in);
         System.out.printf("%s", phrase);
         return scanner.nextInt();
     }
 
-    public static int getFirstIndexOfRepeatingSequence(int[] arr, int sequenceLength) {
+    private static int getFirstIndexOfRepeatingSequence(int[] arr, int sequenceLength) {
 
         int startIndex = 0;
         int repeatCounter = 1;

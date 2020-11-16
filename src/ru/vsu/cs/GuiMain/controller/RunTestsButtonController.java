@@ -24,7 +24,7 @@ public class RunTestsButtonController implements ActionListener {
         }
     }
 
-    public static String[][] readDataFromTableModel(DefaultTableModel tableModel) {
+    private static String[][] readDataFromTableModel(DefaultTableModel tableModel) {
         int rowCounts = tableModel.getRowCount();
         int colCount = tableModel.getColumnCount();
         String[][] tableData = new String[rowCounts][colCount];
@@ -43,7 +43,7 @@ public class RunTestsButtonController implements ActionListener {
         return tableData;
     }
 
-    public static void writeDataToJTable(TestsTableModel tableModel, String[][] arr) {
+    private static void writeDataToJTable(TestsTableModel tableModel, String[][] arr) {
         int rowCounts = arr.length;
         int colCount = arr[0].length;
         tableModel.setRowCount(rowCounts);

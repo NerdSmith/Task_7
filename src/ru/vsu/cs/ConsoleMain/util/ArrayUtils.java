@@ -29,7 +29,7 @@ public class ArrayUtils {
         return toPrimitive(arr);
     }
 
-    public static int[] toPrimitive(Integer[] arr) {
+    private static int[] toPrimitive(Integer[] arr) {
         if (arr == null) {
             return null;
         }
