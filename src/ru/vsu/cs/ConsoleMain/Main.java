@@ -10,7 +10,7 @@ public class Main {
         int[] arr = ArrayUtils.readIntArrayFromConsole("");
         int sequenceLength = readVar("Enter length of searching sequence: ");
         int firstIndexOfRepeatingSequence = getFirstIndexOfRepeatingSequence(arr, sequenceLength);
-        System.out.printf("Index of first element is: %d", firstIndexOfRepeatingSequence);
+        System.out.printf("Index of the first element is: %d", firstIndexOfRepeatingSequence);
     }
 
     public static int readVar(String phrase) {
