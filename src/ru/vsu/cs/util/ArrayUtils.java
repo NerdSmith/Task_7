@@ -6,6 +6,9 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class ArrayUtils {
+    /**
+    * Использованы немного измененные функции от ДИ
+    */
     public static int[] toIntArray(String line) {
         Scanner scanner = new Scanner(line);
         scanner.useLocale(Locale.ROOT);
