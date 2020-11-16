@@ -1,7 +1,7 @@
-package ru.vsu.cs.controller;
+package ru.vsu.cs.GuiMain.controller;
 
-import ru.vsu.cs.model.TestsTableModel;
-import ru.vsu.cs.tests.Tests;
+import ru.vsu.cs.GuiMain.model.TestsTableModel;
+import ru.vsu.cs.GuiMain.tests.Tests;
 
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;

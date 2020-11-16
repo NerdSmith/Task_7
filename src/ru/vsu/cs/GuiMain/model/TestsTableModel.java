@@ -1,6 +1,6 @@
-package ru.vsu.cs.model;
+package ru.vsu.cs.GuiMain.model;
 
-import ru.vsu.cs.data.DefaultTableData;
+import ru.vsu.cs.GuiMain.data.DefaultTableData;
 
 import javax.swing.table.DefaultTableModel;
 

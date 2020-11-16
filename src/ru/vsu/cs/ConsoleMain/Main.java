@@ -1,8 +1,24 @@
-package ru.vsu.cs.logic;
+package ru.vsu.cs.ConsoleMain;
+
+import ru.vsu.cs.ConsoleMain.util.ArrayUtils;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class Logic {
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = ArrayUtils.readIntArrayFromConsole("");
+        int sequenceLength = readVar("Enter length of searching sequence: ");
+        int firstIndexOfRepeatingSequence = getFirstIndexOfRepeatingSequence(arr, sequenceLength);
+        System.out.printf("Index of first element is: %d", firstIndexOfRepeatingSequence);
+    }
+
+    public static int readVar(String phrase) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("%s", phrase);
+        return scanner.nextInt();
+    }
+
     public static int getFirstIndexOfRepeatingSequence(int[] arr, int sequenceLength) {
 
         int startIndex = 0;

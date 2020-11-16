@@ -1,6 +1,6 @@
-package ru.vsu.cs;
+package ru.vsu.cs.GuiMain;
 
-import ru.vsu.cs.view.View;
+import ru.vsu.cs.GuiMain.view.View;
 
 public class Main {
 

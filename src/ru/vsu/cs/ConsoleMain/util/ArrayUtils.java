@@ -1,4 +1,4 @@
-package ru.vsu.cs.util;
+package ru.vsu.cs.ConsoleMain.util;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,9 +7,16 @@ import java.util.Scanner;
 
 public class ArrayUtils {
     /**
-    * Использованы немного измененные функции от ДИ
+    * Использованы немного измененные методы от ДИ
     */
-    public static int[] toIntArray(String line) {
+    public static int[] readIntArrayFromConsole(String arrName) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.printf("Enter %s array: ", arrName);
+        String line = scanner.nextLine();
+        return toIntArray(line);
+    }
+
+    private static int[] toIntArray(String line) {
         Scanner scanner = new Scanner(line);
         scanner.useLocale(Locale.ROOT);
         scanner.useDelimiter("(\\s|[,:;])+");
@@ -31,17 +38,5 @@ public class ArrayUtils {
             result[i] = arr[i];
         }
         return result;
-    }
-
-    public static String[][] copy2DArr(String[][] arr) {
-        if (arr == null) {
-            return null;
-        }
-        String[][] arrCopy = new String[arr.length][];
-        for (int i = 0; i < arr.length; i++) {
-            arrCopy[i] = new String[arr[i].length];
-            System.arraycopy(arr[i], 0, arrCopy[i], 0, arr[0].length);
-        }
-        return arrCopy;
     }
 }

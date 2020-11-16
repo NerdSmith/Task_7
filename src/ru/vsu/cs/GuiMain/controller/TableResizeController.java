@@ -1,4 +1,4 @@
-package ru.vsu.cs.controller;
+package ru.vsu.cs.GuiMain.controller;
 
 import javax.swing.table.TableColumn;
 import javax.swing.table.TableColumnModel;

@@ -1,4 +1,4 @@
-package ru.vsu.cs.data;
+package ru.vsu.cs.GuiMain.data;
 
 public class DefaultTableData {
     public static final String[][] testsData = {

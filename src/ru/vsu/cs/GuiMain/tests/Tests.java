@@ -1,8 +1,8 @@
-package ru.vsu.cs.tests;
+package ru.vsu.cs.GuiMain.tests;
 
-import ru.vsu.cs.data.CorrectData;
-import ru.vsu.cs.logic.Logic;
-import ru.vsu.cs.util.ArrayUtils;
+import ru.vsu.cs.GuiMain.data.CorrectData;
+import ru.vsu.cs.GuiMain.logic.Logic;
+import ru.vsu.cs.GuiMain.util.ArrayUtils;
 
 import java.util.Arrays;
 

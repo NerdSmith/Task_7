@@ -1,7 +1,7 @@
-package ru.vsu.cs.controller;
+package ru.vsu.cs.GuiMain.controller;
 
-import ru.vsu.cs.logic.Logic;
-import ru.vsu.cs.util.ArrayUtils;
+import ru.vsu.cs.GuiMain.logic.Logic;
+import ru.vsu.cs.GuiMain.util.ArrayUtils;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

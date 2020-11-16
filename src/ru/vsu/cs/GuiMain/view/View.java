@@ -1,9 +1,9 @@
-package ru.vsu.cs.view;
+package ru.vsu.cs.GuiMain.view;
 
-import ru.vsu.cs.controller.LineApplyButtonController;
-import ru.vsu.cs.controller.RunTestsButtonController;
-import ru.vsu.cs.controller.TableResizeController;
-import ru.vsu.cs.model.TestsTableModel;
+import ru.vsu.cs.GuiMain.controller.LineApplyButtonController;
+import ru.vsu.cs.GuiMain.controller.RunTestsButtonController;
+import ru.vsu.cs.GuiMain.controller.TableResizeController;
+import ru.vsu.cs.GuiMain.model.TestsTableModel;
 
 import javax.swing.*;
 import java.awt.*;
