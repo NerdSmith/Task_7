@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class Logic {
     public static int getFirstIndexOfRepeatingSequence(int[] arr, int sequenceLength) {
-
         int startIndex = 0;
         int repeatCounter = 1;
 

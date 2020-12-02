@@ -10,10 +10,10 @@ import java.util.Arrays;
 
 public class LineApplyButtonController implements ActionListener {
 
-    JTextField inputArrTextField;
-    JTextField lenOfSearchingSeqTextField;
-    JTextField resultSeqTextField;
-    JTextField indexResultTextField;
+    private JTextField inputArrTextField;
+    private JTextField lenOfSearchingSeqTextField;
+    private JTextField resultSeqTextField;
+    private JTextField indexResultTextField;
 
     public LineApplyButtonController(JTextField inputArrTextField, JTextField lenOfSearchingSeqTextField,
                                      JTextField resultSeqTextField, JTextField indexResultTextField) {

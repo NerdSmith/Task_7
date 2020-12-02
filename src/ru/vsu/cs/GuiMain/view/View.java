@@ -20,11 +20,11 @@ public class View extends JFrame {
 
     public View() {
         super("Application");
-
         this.setContentPane(panelMain);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setBounds(100, 100, 1450, 400);
         this.setMinimumSize(new Dimension(500, 130));
+
 
         initJTable(testsTable);
 

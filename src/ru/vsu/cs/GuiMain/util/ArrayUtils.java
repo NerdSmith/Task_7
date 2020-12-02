@@ -13,7 +13,6 @@ public class ArrayUtils {
         Scanner scanner = new Scanner(line);
         scanner.useLocale(Locale.ROOT);
         scanner.useDelimiter("(\\s|[,:;])+");
-        System.out.println();
         List<Integer> list = new ArrayList<>();
         while (scanner.hasNext()) {
             list.add(scanner.nextInt());
